@@ -1,7 +1,7 @@
 from src.calculator import add, sub, mul, div
 
 def test_add():
-    assert add(1,1) == 3  # created branch of "test3" setting the line to be `assert add(1,1) == 3`
+    assert add(1,1) == 3  # branch "test3" set back to `assert add(1,1) == 2`
 
 def test_sub():
     assert sub(1,1) == 0
