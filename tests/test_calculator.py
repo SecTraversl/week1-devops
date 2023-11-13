@@ -1,7 +1,7 @@
 from src.calculator import add, sub, mul, div
 
 def test_add():
-    assert add(1,1) == 2  # I created a new branch called "test2" does this comment exist there?
+    assert add(1,1) == 3  # created branch of "test3" setting the line to be `assert add(1,1) == 3`
 
 def test_sub():
     assert sub(1,1) == 0
